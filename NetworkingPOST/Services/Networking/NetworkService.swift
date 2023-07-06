@@ -42,7 +42,7 @@ class NetworkService {
         let encoder = JSONEncoder()
         let body = try encoder.encode(dto)
         
-        req.httpBody = body
+        req.httpBody = body // в этом теле данные, которые мы передадим при запросте
         
         // отправка запроса, получение ответа
         let resp = try await URLSession.shared.data(for: req)

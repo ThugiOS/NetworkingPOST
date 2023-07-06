@@ -21,12 +21,14 @@ struct ContentView: View {
                     let dto = ToDo.TodoDTO(userId: 6,
                                            title: todoTitle,
                                            completed: false)
-                    Task {
-                        let todo = try await NetworkService.shared.createToDo(dto)
-                        print(todo.id)
-                        print(todo.title) // Данные уже из сервера
+                    NetworkServiceWithCompletion.shared.createToDo(dto) { result in
+                        switch result {
+                        case .success(let todo):
+                            print(todo.title)
+                        case .failure(let error):
+                            print(error)
+                        }
                     }
-                    
                 }.padding()
             }
             List {

@@ -16,6 +16,7 @@
 		27A92D2D2A56BE2E00E39914 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A92D2C2A56BE2E00E39914 /* NetworkError.swift */; };
 		27A92D2F2A56BE4F00E39914 /* ParsingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A92D2E2A56BE4F00E39914 /* ParsingService.swift */; };
 		27A92D342A56C9B000E39914 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A92D332A56C9B000E39914 /* ToDo.swift */; };
+		27A92D382A56FC9200E39914 /* NetworkServiceWithCompletion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A92D372A56FC9200E39914 /* NetworkServiceWithCompletion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		27A92D2C2A56BE2E00E39914 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		27A92D2E2A56BE4F00E39914 /* ParsingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParsingService.swift; sourceTree = "<group>"; };
 		27A92D332A56C9B000E39914 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		27A92D372A56FC9200E39914 /* NetworkServiceWithCompletion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceWithCompletion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			children = (
 				27A92D2A2A56BE1B00E39914 /* URLManager.swift */,
 				27A92D282A56BE0600E39914 /* NetworkService.swift */,
+				27A92D372A56FC9200E39914 /* NetworkServiceWithCompletion.swift */,
 				27A92D2C2A56BE2E00E39914 /* NetworkError.swift */,
 				27A92D2E2A56BE4F00E39914 /* ParsingService.swift */,
 			);
@@ -190,6 +193,7 @@
 				27A92D292A56BE0600E39914 /* NetworkService.swift in Sources */,
 				27A92D1B2A56BCD700E39914 /* NetworkingPOSTApp.swift in Sources */,
 				27A92D2F2A56BE4F00E39914 /* ParsingService.swift in Sources */,
+				27A92D382A56FC9200E39914 /* NetworkServiceWithCompletion.swift in Sources */,
 				27A92D2D2A56BE2E00E39914 /* NetworkError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
