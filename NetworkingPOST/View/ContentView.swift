@@ -21,7 +21,7 @@ struct ContentView: View {
                     let dto = ToDo.TodoDTO(userId: 6,
                                            title: todoTitle,
                                            completed: false)
-                    NetworkServiceWithCompletion.shared.createToDo(dto) { result in
+                    NetworkServiceWithAF.shared.createToDo(dto) { result in
                         switch result {
                         case .success(let todo):
                             print(todo.title)
